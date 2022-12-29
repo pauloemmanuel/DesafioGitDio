@@ -82,5 +82,23 @@ O git possui um ciclo de vida bem definido, todos os arquivos tem "estados", sã
   **git commit**
   ```git
   git commit - Pega os arquivos em Staged e faz um commit
+
+  git commit -m "Mensagem" - Commita com uma mensagem
+
+  git commit -m "Mensagem" - Commita com uma mensagem
   ``` 
 
+  **git branch**
+  ```git
+  git branch - Lista todas as branches do repositório
+
+  git branch -d nome_do_branch - Deleta a branch caso tenha sido mergeado.
+
+  git branch -D nome_do_branch - Deleta a branch mesmo se ela não tiver sido mergeada
+  ```
+  **git checkout**
+  ```git
+  git checkout nome_da_branch - Serve para trocar entre branches
+
+  git checkout -b nome_da_branch - Cria uma nova branch caso ela não exista
+  ```
